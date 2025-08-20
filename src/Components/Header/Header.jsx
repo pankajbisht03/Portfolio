@@ -17,7 +17,8 @@ const Banner = () => {
                                     'A Software Engineer',
                                     'A Problem Solver',
                                     'A Full Stack Developer',
-                                    'A Team Player'
+                                    'A Team Player',
+                                    'A Debugging Ninja'
                                 ],
                                 pauseFor: 1500,
                                 autoStart: true,
