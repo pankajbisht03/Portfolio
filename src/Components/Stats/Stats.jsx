@@ -8,9 +8,9 @@ import {
     LastStat,
 } from './Styles';
 import { Container } from '../../SharedStyles/SharedStyles';
-const Stats = () => {
+const Stats = ({currentTheme}) => {
     return (
-        <Container>
+        <Container style={{backgroundColor: currentTheme==="light" && "#9fc5e8"}}>
             <StatsContCont>
                 <StatsCont>
                     <StatsContDiv className='dom-attribute-demo'>

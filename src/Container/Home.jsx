@@ -23,13 +23,13 @@ const Home = ({ currentTheme, themeToggler }) => {
     ) : (
         <div>
             <Navbar currentTheme={currentTheme} themeToggler={themeToggler} />
-            <Banner />
-            <About />
-            <Skills />
-            <Projects />
-            <Stats />
-            <Contact />
-            <Footer />
+            <Banner currentTheme={currentTheme} />
+            <About currentTheme={currentTheme} />
+            <Skills currentTheme={currentTheme} />
+            <Projects currentTheme={currentTheme}/>
+            <Stats currentTheme={currentTheme}/>
+            <Contact currentTheme={currentTheme} />
+            <Footer currentTheme={currentTheme}/>
         </div>
     );
 };

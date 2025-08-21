@@ -22,7 +22,7 @@ import { Container, H1 } from '../../SharedStyles/SharedStyles';
 
 import('./skills.css');
 
-const Skills = () => {
+const Skills = ({currentTheme}) => {
     const projects = [
         {
             id: 0,
@@ -84,7 +84,7 @@ const Skills = () => {
     ];
 
     return (
-        <Container className='skills'>
+        <Container className='skills' style={{backgroundColor: currentTheme === "light" && "#928e8e"}}>
             <SkillsContainer>
                 <Common>
                     <H1>Technologies</H1>

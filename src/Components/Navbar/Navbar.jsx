@@ -80,7 +80,7 @@ function Navbar({ themeToggler }) {
     //   console.log(opened)
     // }
     return (
-        <NavBarDiv>
+        <NavBarDiv style={{backgroundColor:"#eeeeee",fontFamily:"sans-serif"}}>
             <Logo onClick={() => scroll.scrollToTop()}>
                 {/* <span class='grey-color'> &lt;</span> */}
                 <span class='logo-name'>Pankaj Bisht</span>
